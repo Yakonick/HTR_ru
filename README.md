@@ -28,6 +28,7 @@ and `OUTPUT_PATH` - the path with the _*.txt_ file where you want to save the tr
 ```bash
 python3 htr.py --input ../demo/demo1.jpg --output ../translate.txt
 ```
+Also, you have 3 demo pictures in `PATH/HTR_ru/demo` directory to test the program.
 
 ## Finish
 Once you've done with your work with the code, type
