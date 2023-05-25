@@ -38,7 +38,7 @@ and `OUTPUT_PATH` - the path with the _*.txt_ file where you want to save the tr
 
 ### For example:
 ```bash
-python3 htr.py --input ../demo/demo1.jpg --output ../translate.txt
+python htr.py --input ../demo/demo1.jpg --output ../translate.txt
 ```
 Also, you have 3 demo pictures in `PATH/HTR_ru/demo` directory to test the program.
 
