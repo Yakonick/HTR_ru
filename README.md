@@ -9,9 +9,21 @@ Download it and unpack into your `PATH`.
 ```bash
 cd /PATH/HTR_ru
 ```
-3. Activate python virtual environment and go to `model` directory:
+3. Create python virtual environment and activate it:
 ```bash
-source ./env/bin/activate
+python -m venv env
+```
+  * On Windows, run:
+```bash
+env\Scripts\activate.bat
+```
+  * On Unix or MacOS, run:
+```bash
+source env/bin/activate
+```
+4. Install requirements and go to `model` directory:
+```bash
+pip install -r requirements.txt
 cd ./model
 ```
 ---
@@ -19,7 +31,7 @@ cd ./model
 Once you've done with all preparation, 
 you can run the program typing in the command:
 ```bash
-python3 htr.py --input INPUT_PATH --output OUTPUT_PATH
+python htr.py --input INPUT_PATH --output OUTPUT_PATH
 ```
 where `INPUT_PATH` - the path to the image which you want to translate
 and `OUTPUT_PATH` - the path with the _*.txt_ file where you want to save the translation.
