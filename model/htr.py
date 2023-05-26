@@ -120,7 +120,7 @@ class HTR:
             self.saved_model = saved_model
             preds = test(self)
             
-            with open(save_path, 'a') as f:
+            with open(save_path, 'a', encoding='utf-8') as f:
                 for word in preds:
                     word = word.replace('ё', 'я')
                     f.write(word + ' ')
