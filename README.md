@@ -3,7 +3,7 @@
 
 ## Installation
 
-1. The zip-archive with the code is available with the [_link_](https://drive.google.com/drive/folders/1vwqzXkQNhiHw1m-z6kxH4Q0JP1eZxVcD?usp=sharing).
+1. The zip-archive with the code is available with the [_link_](https://drive.google.com/file/d/1xiWQzlt4uU5T7F5HZrUt5eeJFwnkUdrI/view?usp=sharing).
 Download it and unpack into your `PATH`.
 2. Open terminal and go to your `PATH`:
 ```bash
